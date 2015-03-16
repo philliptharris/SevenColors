@@ -15,6 +15,7 @@
 		11DE2F311AB72280007777E4 /* SevenColorsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE2F301AB72280007777E4 /* SevenColorsExampleTests.m */; };
 		11DE2F3C1AB722C2007777E4 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE2F3B1AB722C2007777E4 /* MyTableViewController.m */; };
 		11DE2F3F1AB72422007777E4 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE2F3E1AB72422007777E4 /* MyTableViewCell.m */; };
+		11DE2F471AB72D9D007777E4 /* UIColor+SevenColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE2F461AB72D9D007777E4 /* UIColor+SevenColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		11DE2F3B1AB722C2007777E4 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		11DE2F3D1AB72422007777E4 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		11DE2F3E1AB72422007777E4 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		11DE2F451AB72D9D007777E4 /* UIColor+SevenColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SevenColors.h"; sourceTree = "<group>"; };
+		11DE2F461AB72D9D007777E4 /* UIColor+SevenColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SevenColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		11DE2F081AB72280007777E4 = {
 			isa = PBXGroup;
 			children = (
+				11DE2F441AB72D9D007777E4 /* SevenColors */,
 				11DE2F131AB72280007777E4 /* SevenColorsExample */,
 				11DE2F2D1AB72280007777E4 /* SevenColorsExampleTests */,
 				11DE2F121AB72280007777E4 /* Products */,
@@ -122,6 +126,15 @@
 				11DE2F2F1AB72280007777E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11DE2F441AB72D9D007777E4 /* SevenColors */ = {
+			isa = PBXGroup;
+			children = (
+				11DE2F451AB72D9D007777E4 /* UIColor+SevenColors.h */,
+				11DE2F461AB72D9D007777E4 /* UIColor+SevenColors.m */,
+			);
+			path = SevenColors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +241,7 @@
 				11DE2F3F1AB72422007777E4 /* MyTableViewCell.m in Sources */,
 				11DE2F171AB72280007777E4 /* main.m in Sources */,
 				11DE2F3C1AB722C2007777E4 /* MyTableViewController.m in Sources */,
+				11DE2F471AB72D9D007777E4 /* UIColor+SevenColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
