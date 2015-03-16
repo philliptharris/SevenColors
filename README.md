@@ -1,6 +1,6 @@
 ## Seven Colors
 
-![Screenshot](screenshot.png)
+<img src="screenshot.png" width="320" height="568"></img>
 
 	+ (UIColor *)sevenRed;
 	+ (UIColor *)sevenOrange;
