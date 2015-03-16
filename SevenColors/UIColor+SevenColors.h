@@ -1,6 +1,6 @@
 //
 //  UIColor+SevenColors.h
-//  Umstead
+//  SevenColors
 //
 //  Created by Phillip Harris on 2/4/15.
 //  Copyright (c) 2015 Phillip Harris. All rights reserved.
