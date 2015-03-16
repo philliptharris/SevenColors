@@ -1,5 +1,9 @@
 ## Seven Colors
 
+Apple's standard iOS 7 colors in a convenient category on `UIColor`.
+
+Simply drag-and-drop `UIColor+SevenColors.h` and `UIColor+SevenColors.m` into your Xcode project.
+
 <img src="screenshot.png" width="320" height="568"></img>
 
 	+ (UIColor *)sevenRed;
@@ -19,3 +23,7 @@
 	+ (UIColor *)sevenGroupedTableViewBackground;
 	+ (UIColor *)sevenNavigationBarBackground;
 	+ (UIColor *)sevenGreyedOutTableText;
+
+## License
+
+The MIT License (MIT)
