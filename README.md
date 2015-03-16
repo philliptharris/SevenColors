@@ -4,7 +4,11 @@ Apple's standard iOS 7 colors in a convenient category on `UIColor`.
 
 Simply drag-and-drop `UIColor+SevenColors.h` and `UIColor+SevenColors.m` into your Xcode project.
 
+### Screenshot
+
 <img src="screenshot.png" width="320" height="568"></img>
+
+### Colors
 
 	+ (UIColor *)sevenRed;
 	+ (UIColor *)sevenOrange;
